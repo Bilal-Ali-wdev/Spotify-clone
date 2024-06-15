@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+body{
+    background-color: black;
+}
+.left{
+    width: 25vw;
+    padding: 7px;
+}
+.right{
+    width: 75vw;
+}
+ .home{
+    border-radius: 5px;
+     padding-top: 10px; 
+     padding-bottom: 10px; 
+} 
+.home ul li{
+    width: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding-top: 14px;
+    transition: 0.3s;
+}
+.home ul li{
+    cursor: pointer;
+}
+.h-1:hover{
+    color: white;
+}
+.logo img{
+    cursor: pointer;
+    padding-top: 10px;
+}
+.pa{
+    padding-left: 20px;
+}
+.main-lib{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    padding-left: 14px;
+    transition: 0.3s;
+}
+.heading img{
+    width: 22px;
+}
+.heading h2{
+    font-size: 14px;
+    font-weight: 700;
+}
+.plus{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    cursor: pointer;
+    transition: .4s;
+}
+.plus:hover{
+    background-color: rgb(36,36,36);
+    border-radius: 50%;
+}
+
+.scroll{
+    width: 100%;
+    height: 170px;
+    overflow: scroll;
+    overflow-x: hidden;
+    transition: .4s;
+    margin-bottom: 50px;
+}
+.scroll::-webkit-scrollbar{
+ width: 10px;
+ height: 3px;
+}
+.scroll::-webkit-scrollbar-thumb{
+    background-color :rgb(18,18,18);
+}
+.scroll:hover::-webkit-scrollbar-thumb{
+    background-color :gray;
+}
+.scroll-1 {
+    background-color: rgb(36,36,36);
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 22px;
+}
+.scroll-1 h5{
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: .4px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.scroll-1 p{
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    padding-top: 3px;
+}
+.scroll-1 button {
+    margin-top: 15px;
+    background-color: white;
+    color: black;
+    padding: 4px 10px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.footer{
+    margin-bottom: 50px;
+}
+.footer a{
+    font-family: "Source Sans 3", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    padding-right: 25px;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.b{
+    height: 40px;
+    margin-bottom: 23px;
+}
+.btn button{
+    padding: 7px 15px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    /* transition: .3s; */
+}
+.btn button:hover{
+    /* padding: 9px 18px; */
+    border: 2px solid white;
+    font-weight: bolder;
+}
+   /* RIGHT SECTION */
+
+   .loging {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(9,9,9);
+    margin: 0 -6px;
+    margin-top: 13px;
+    margin-right: 10px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input {
+    background-color: rgb(36,36,36);
+    width: 350px;
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    font-family: "Source Sans 3", sans-serif;
+}
+.search input:hover{
+    border: 1px solid rgba(255, 255, 255, 0.098);
+}
+.search input:focus{
+    border:2px solid white;
+}
+.inp{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.inp i{
+    font-size: 14px;
+    position: absolute;
+    left: 8px;
+    color: rgba(255, 255, 255, 0.846);
+}
+.signs{
+    display: flex;
+    gap: 10px;
+    font-size: 21px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.signs i {
+    padding: 9px;
+    background-color: rgb(4,4,4);
+    font-size: 14px;
+    border-radius: 50%;
+}
+.signin button{
+    border: none;
+    outline: none;
+    font-family: "Source Sans 3", sans-serif;
+    cursor: pointer;
+}
+.signin button:first-child{
+    background-color: rgb(9,9,9);
+    color: rgba(255, 255, 255, 0.619);
+    font-weight: 800;
+    font-size: 16px;
+    transition: .2s;
+}
+.signin button:first-child:hover{
+    color: white;
+    font-size: 18px;
+}
+.signin button:nth-child(2){
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: 800;
+    font-size: 16px;
+    margin-left: 20px;
+    transition: .3s;
+}
+.signin button:nth-child(2):hover{
+   padding: 12px 27px;
+}
+.spotify-playlist{
+    padding: 16px;
+}
+.spotify-playlist h1{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 22px;
+}
+.card{
+    width: 150px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: rgb(18,18,18);
+    cursor: pointer;
+    position: relative;
+}
+.card h2{
+    font-size: 12px;
+}
+.card p{
+    font-size: 10px;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+.card > *{
+    padding-top:3px ;
+}
+.card-container{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 20px;
+    max-height: 70vh;
+    overflow-y: scroll;
+}
+.play{
+   width: 40px;
+   height: 40px;
+   background-color: #1ed760;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 5px;
+   position: absolute;
+   right: 14px;
+   top: 100px;
+   opacity: 0;
+   transition: all 1s ease-out;
+}
+.card:hover{
+    opacity: 1;
+}

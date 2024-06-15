@@ -1,0 +1,65 @@
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+.border{
+  border: 2px solid red;
+  margin: 3px;
+}
+.bg-black{
+    background-color: black;
+    color: #fff;
+}
+.invert{
+    filter: invert(1);
+}
+.invert2{
+    filter: invert(0.7);
+}
+.bg-gray{
+    background-color: rgb(18,18,18);
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.c-1{
+    color: rgb(179,179,179);
+}
+.p-1{
+    padding: 10px;
+}
+.p-d{
+    padding-bottom: 10px;
+}
+/* Apply to the entire document */
+
+/* For WebKit based browsers */
+/* Track */
+.card-container::-webkit-scrollbar {
+    width: 20px;
+    background-color: #0f0f0f; /* dark track color */
+}
+
+/* Thumb */
+.card-container::-webkit-scrollbar-thumb {
+    background-color: #333333; /* dark thumb color */
+    border-radius: 10px;
+    border: 2px solid #0f0f0f; /* dark border color */
+}
+
+/* Optionally, for Firefox */
+/* Track */
+/* Firefox supports scrollbar-width, but not scrollbar-color */
+/* So, you can only style the track color in Firefox */
+/* Adjust as per your design */
+/* html {
+/*    scrollbar-width: thin;
+/*}
